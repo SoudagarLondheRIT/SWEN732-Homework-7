@@ -1,6 +1,6 @@
 import java.util.*;
 
-// Course Catalog Class
+// Course Catalog Classes
 public class CourseCatalog 
 {
     private List<CourseComponent> components = new ArrayList<>();
