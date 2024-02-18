@@ -1,6 +1,9 @@
 import java.util.*;
 
 // Concrete Visitor Class for Generating Reports
+// The ReportGenerator class is a concrete visitor that implements the Visitor interface. 
+// It provides concrete implementations for visiting course components and generating reports.
+
 class ReportGenerator implements Visitor 
 {
     @Override

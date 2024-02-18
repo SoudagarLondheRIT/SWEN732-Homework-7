@@ -1,3 +1,6 @@
+// The Main class serves as the client code that sets up the course catalog, 
+// creates a visitor (ReportGenerator), and generates reports using the generateReports method.
+
 public class Main 
 {
     public static void main(String[] args) 

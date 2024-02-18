@@ -6,7 +6,7 @@
 Following project is developing a course enrollment system for a college or university. The system allows students to enroll in courses, drop courses, and view their current schedule. Additionally, the system needs to generate various reports, such as enrollment statistics, course popularity, etc. The Visitor pattern can be used to generate these reports while keeping the course and student classes closed for modification but open for extension.
 
 ## Functionality of Code
-Visitor Interface (Visitor): The Visitor interface defines methods for visiting different types of course components (Course and CourseSection) as well as methods for generating reports (visitEnrollmentStatistics and visitCoursePopularity).
+Visitor Interface (Visitor): The Visitor interface defines methods for visiting different types of course components (Course and CourseSection) as well as methods for generating reports (visitEnrollmentStatistics and visitCourseRatings).
 
 Concrete Visitor (ReportGenerator): The ReportGenerator class is a concrete visitor that implements the Visitor interface. It provides concrete implementations for visiting course components and generating reports.
 
